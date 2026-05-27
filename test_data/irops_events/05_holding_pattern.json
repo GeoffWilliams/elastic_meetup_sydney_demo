@@ -1,0 +1,22 @@
+{
+  "event_id": "IROPS_TB519_005",
+  "event_type": "HOLDING_PATTERN",
+  "timestamp": "2026-05-26T10:45:00Z",
+  "airline": "TrueBlueAustralia",
+  "flight_number": "TB519",
+  "origin": "SYD",
+  "destination": "BNE",
+  "status": "HOLDING",
+  "aircraft_registration": "VH-TBA",
+  "holding_fix": "BLAKA",
+  "holding_altitude_feet": 15000,
+  "holding_duration_minutes": 30,
+  "fuel_remaining_minutes": 90,
+  "weather_conditions": {
+    "airport": "BNE",
+    "condition": "SEVERE_THUNDERSTORMS",
+    "improvement_eta": "2026-05-26T12:00:00Z"
+  },
+  "passenger_notification": "Captain has advised passengers of weather delay",
+  "cabin_service": "Complimentary refreshments being served"
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Transport Availability",
+  "description": "Schema for ground transport availability",
+  "type": "object",
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp of availability snapshot"
+    },
+    "route": {
+      "type": "string",
+      "description": "Transport route (e.g., OOL to BNE)"
+    },
+    "distance_km": {
+      "type": "number",
+      "description": "Distance in kilometers"
+    },
+    "estimated_duration_minutes": {
+      "type": "integer",
+      "description": "Estimated duration in minutes"
+    },
+    "transport_options": {
+      "type": "array",
+      "description": "Available transport options",
+      "items": {
+        "type": "object",
+        "properties": {
+          "provider_id": {
+            "type": "string",
+            "description": "Transport provider identifier"
+          },
+          "provider_name": {
+            "type": "string",
+            "description": "Transport provider name"
+          },
+          "transport_type": {
+            "type": "string",
+            "description": "Type of transport (COACH_BUS, SHUTTLE_BUS, PRIVATE_VEHICLE)"
+          },
+          "available_vehicles": {
+            "type": "integer",
+            "description": "Number of available vehicles"
+          },
+          "vehicle_details": {
+            "type": "array",
+            "description": "Details of available vehicles",
+            "items": {
+              "type": "object",
+              "properties": {
+                "vehicle_id": {
+                  "type": "string",
+                  "description": "Vehicle identifier"
+                },
+                "vehicle_type": {
+                  "type": "string",
+                  "description": "Type of vehicle"
+                },
+                "capacity": {
+                  "type": "integer",
+                  "description": "Passenger capacity"
+                },
+                "wheelchair_accessible": {
+                  "type": "boolean",
+                  "description": "Whether vehicle is wheelchair accessible"
+                },
+                "wheelchair_spaces": {
+                  "type": "integer",
+                  "description": "Number of wheelchair spaces"
+                },
+                "amenities": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Vehicle amenities"
+                },
+                "available": {
+                  "type": "boolean",
+                  "description": "Whether vehicle is available"
+                },
+                "available_count": {
+                  "type": "integer",
+                  "description": "Number of available vehicles of this type"
+                }
+              }
+            }
+          },
+          "earliest_departure": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Earliest possible departure time"
+          },
+          "rate_per_vehicle_aud": {
+            "type": "number",
+            "description": "Rate per vehicle in Australian Dollars"
+          },
+          "accepts_airline_contracts": {
+            "type": "boolean",
+            "description": "Whether provider accepts airline contracts"
+          },
+          "driver_availability": {
+            "type": "string",
+            "description": "Driver availability status"
+          },
+          "suitable_for": {
+            "type": "string",
+            "description": "Suitable passenger types"
+          }
+        },
+        "required": ["provider_id", "provider_name", "transport_type", "available_vehicles"]
+      }
+    }
+  },
+  "required": ["timestamp", "route", "transport_options"]
+}

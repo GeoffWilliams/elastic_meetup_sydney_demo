@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Hotel Inventory",
+  "description": "Schema for hotel inventory and availability",
+  "type": "object",
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp of inventory snapshot"
+    },
+    "location": {
+      "type": "string",
+      "description": "Location/city name"
+    },
+    "search_radius_km": {
+      "type": "number",
+      "description": "Search radius in kilometers"
+    },
+    "hotels": {
+      "type": "array",
+      "description": "Array of available hotels",
+      "items": {
+        "type": "object",
+        "properties": {
+          "hotel_id": {
+            "type": "string",
+            "description": "Unique hotel identifier"
+          },
+          "name": {
+            "type": "string",
+            "description": "Hotel name"
+          },
+          "address": {
+            "type": "string",
+            "description": "Hotel address"
+          },
+          "distance_from_airport_km": {
+            "type": "number",
+            "description": "Distance from airport in kilometers"
+          },
+          "star_rating": {
+            "type": "number",
+            "description": "Hotel star rating"
+          },
+          "available_rooms": {
+            "type": "integer",
+            "description": "Total available rooms"
+          },
+          "room_types": {
+            "type": "array",
+            "description": "Available room types",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "description": "Room type name"
+                },
+                "available": {
+                  "type": "integer",
+                  "description": "Number of available rooms of this type"
+                },
+                "rate_aud": {
+                  "type": "number",
+                  "description": "Rate in Australian Dollars"
+                },
+                "accessible": {
+                  "type": "boolean",
+                  "description": "Whether room is wheelchair accessible"
+                },
+                "features": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Room features"
+                },
+                "max_occupancy": {
+                  "type": "integer",
+                  "description": "Maximum occupancy"
+                },
+                "crib_available": {
+                  "type": "boolean",
+                  "description": "Whether crib is available"
+                }
+              },
+              "required": ["type", "available", "rate_aud"]
+            }
+          },
+          "amenities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Hotel amenities"
+          },
+          "shuttle_available": {
+            "type": "boolean",
+            "description": "Whether shuttle service is available"
+          },
+          "shuttle_capacity": {
+            "type": "integer",
+            "description": "Shuttle capacity"
+          },
+          "accepts_airline_vouchers": {
+            "type": "boolean",
+            "description": "Whether hotel accepts airline vouchers"
+          }
+        },
+        "required": ["hotel_id", "name", "available_rooms", "room_types"]
+      }
+    },
+    "total_available_rooms": {
+      "type": "integer",
+      "description": "Total available rooms across all hotels"
+    },
+    "total_accessible_rooms": {
+      "type": "integer",
+      "description": "Total accessible rooms across all hotels"
+    },
+    "total_family_rooms": {
+      "type": "integer",
+      "description": "Total family rooms across all hotels"
+    }
+  },
+  "required": ["timestamp", "location", "hotels"]
+}

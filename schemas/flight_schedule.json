@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Flight Schedule",
+  "description": "Schema for scheduled flight operations data",
+  "type": "object",
+  "properties": {
+    "flight_number": {
+      "type": "string",
+      "description": "Flight number (e.g., TB519)"
+    },
+    "airline": {
+      "type": "string",
+      "description": "Airline code or name"
+    },
+    "aircraft_registration": {
+      "type": "string",
+      "description": "Aircraft registration number"
+    },
+    "aircraft_type": {
+      "type": "string",
+      "description": "Aircraft type (e.g., B737-800)"
+    },
+    "origin": {
+      "type": "string",
+      "description": "Origin airport code (IATA)"
+    },
+    "destination": {
+      "type": "string",
+      "description": "Destination airport code (IATA)"
+    },
+    "scheduled_departure": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Scheduled departure time (ISO 8601)"
+    },
+    "scheduled_arrival": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Scheduled arrival time (ISO 8601)"
+    },
+    "scheduled_duration_minutes": {
+      "type": "integer",
+      "description": "Scheduled flight duration in minutes"
+    },
+    "departure_gate": {
+      "type": "string",
+      "description": "Scheduled departure gate"
+    },
+    "arrival_gate": {
+      "type": "string",
+      "description": "Scheduled arrival gate"
+    },
+    "departure_terminal": {
+      "type": "string",
+      "description": "Departure terminal"
+    },
+    "arrival_terminal": {
+      "type": "string",
+      "description": "Arrival terminal"
+    },
+    "service_type": {
+      "type": "string",
+      "description": "Service type (e.g., DOMESTIC, INTERNATIONAL)",
+      "enum": ["DOMESTIC", "INTERNATIONAL", "REGIONAL"]
+    },
+    "days_of_operation": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"]
+      },
+      "description": "Days of the week this flight operates"
+    },
+    "effective_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date this schedule is effective from"
+    },
+    "expiry_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date this schedule expires"
+    },
+    "passenger_capacity": {
+      "type": "integer",
+      "description": "Total passenger capacity"
+    },
+    "codeshare_flights": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "airline": {
+            "type": "string"
+          },
+          "flight_number": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "Codeshare flight numbers"
+    }
+  },
+  "required": [
+    "flight_number",
+    "airline",
+    "origin",
+    "destination",
+    "scheduled_departure",
+    "scheduled_arrival"
+  ]
+}

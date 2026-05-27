@@ -1,0 +1,20 @@
+{
+  "event_id": "IROPS_TB519_001",
+  "event_type": "DEPARTURE_DELAY",
+  "timestamp": "2026-05-26T06:30:00Z",
+  "airline": "TrueBlueAustralia",
+  "flight_number": "TB519",
+  "origin": "SYD",
+  "destination": "BNE",
+  "scheduled_departure": "2026-05-26T06:00:00Z",
+  "estimated_departure": "2026-05-26T07:30:00Z",
+  "delay_minutes": 90,
+  "reason": "AIRCRAFT_TECHNICAL",
+  "reason_detail": "Minor hydraulic system check required",
+  "status": "DELAYED",
+  "aircraft_registration": "VH-TBA",
+  "gate": "23",
+  "affected_passengers": 50,
+  "crew_notification": true,
+  "ground_services_alerted": true
+}

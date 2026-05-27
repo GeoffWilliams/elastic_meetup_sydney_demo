@@ -1,0 +1,34 @@
+{
+  "event_id": "IROPS_TB519_008",
+  "event_type": "OVERNIGHT_ACCOMMODATION",
+  "timestamp": "2026-05-26T12:30:00Z",
+  "airline": "TrueBlueAustralia",
+  "flight_number": "TB519",
+  "origin": "SYD",
+  "destination": "BNE",
+  "original_destination": "BNE",
+  "diversion_airport": "OOL",
+  "current_location": "OOL",
+  "status": "OVERNIGHT_DIVERSION",
+  "aircraft_registration": "VH-TBA",
+  "decision": "OVERNIGHT_STAY",
+  "reason": "BNE weather not clearing until late evening, crew duty hours exceeded",
+  "weather_forecast_brs": {
+    "clearing_time": "2026-05-26T22:00:00Z",
+    "safe_operations_from": "2026-05-27T00:00:00Z"
+  },
+  "crew_status": {
+    "duty_hours_remaining": 45,
+    "rest_required": true,
+    "replacement_crew_available": false
+  },
+  "passenger_services_required": {
+    "hotel_accommodation": true,
+    "meal_vouchers": true,
+    "ground_transportation": true,
+    "special_assistance": true,
+    "total_passengers": 50,
+    "vulnerable_passengers": 18
+  },
+  "recovery_plan": "Ground transportation to BNE via bus service departing 2026-05-27T08:00:00+10:00"
+}

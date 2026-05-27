@@ -1,0 +1,47 @@
+{
+  "event_id": "IROPS_TB519_009",
+  "event_type": "GROUND_TRANSPORT_ARRANGED",
+  "timestamp": "2026-05-26T13:00:00Z",
+  "airline": "TrueBlueAustralia",
+  "flight_number": "TB519",
+  "current_location": "OOL",
+  "destination": "BNE",
+  "status": "GROUND_TRANSPORT_ARRANGED",
+  "transport_details": {
+    "mode": "COACH_BUS",
+    "operator": "Greyhound Australia",
+    "departure_location": "Gold Coast Airport",
+    "departure_time": "2026-05-27T08:00:00+10:00",
+    "arrival_location": "Brisbane Airport",
+    "estimated_arrival": "2026-05-27T09:30:00+10:00",
+    "journey_duration_minutes": 90,
+    "distance_km": 95,
+    "vehicles_required": 2,
+    "vehicle_capacity": 50,
+    "wheelchair_accessible": true
+  },
+  "passenger_allocation": {
+    "bus_1": {
+      "capacity": 25,
+      "priority_passengers": [
+        "Families with infants",
+        "Wheelchair passengers",
+        "Unaccompanied minors with escorts",
+        "Medical needs passengers",
+        "Platinum/Gold frequent flyers"
+      ]
+    },
+    "bus_2": {
+      "capacity": 25,
+      "standard_passengers": true
+    }
+  },
+  "hotel_arrangements": {
+    "hotels_booked": 3,
+    "total_rooms": 45,
+    "check_in_time": "2026-05-26T15:00:00+10:00",
+    "check_out_time": "2026-05-27T07:00:00+10:00",
+    "breakfast_included": true,
+    "shuttle_service": true
+  }
+}

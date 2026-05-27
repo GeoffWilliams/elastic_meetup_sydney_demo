@@ -1,0 +1,22 @@
+{
+  "event_id": "IROPS_TB519_007",
+  "event_type": "LANDING",
+  "timestamp": "2026-05-26T11:45:00Z",
+  "airline": "TrueBlueAustralia",
+  "flight_number": "TB519",
+  "origin": "SYD",
+  "destination": "BNE",
+  "original_destination": "BNE",
+  "diversion_airport": "OOL",
+  "current_location": "OOL",
+  "status": "LANDED",
+  "aircraft_registration": "VH-TBA",
+  "gate": "5",
+  "passengers_onboard": 50,
+  "weather_conditions_brs": {
+    "condition": "SEVERE_THUNDERSTORMS",
+    "improvement_eta": "2026-05-26T22:00:00Z",
+    "note": "Weather system more persistent than forecast"
+  },
+  "next_steps": "Assessing options for continuation to BNE"
+}

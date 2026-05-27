@@ -1,0 +1,35 @@
+{
+  "event_id": "IROPS_TB519_006",
+  "event_type": "DIVERSION_DECISION",
+  "timestamp": "2026-05-26T11:15:00Z",
+  "airline": "TrueBlueAustralia",
+  "flight_number": "TB519",
+  "origin": "SYD",
+  "destination": "BNE",
+  "original_destination": "BNE",
+  "diversion_airport": "OOL",
+  "status": "DIVERTING",
+  "aircraft_registration": "VH-TBA",
+  "reason": "WEATHER_FUEL",
+  "reason_detail": "Severe thunderstorms at BNE not clearing, fuel reserves require diversion",
+  "fuel_remaining_minutes": 65,
+  "estimated_landing_ool": "2026-05-26T11:45:00Z",
+  "weather_conditions_brs": {
+    "condition": "SEVERE_THUNDERSTORMS",
+    "visibility_meters": 600,
+    "wind_speed_knots": 50,
+    "improvement_eta": "2026-05-26T13:00:00Z"
+  },
+  "weather_conditions_ool": {
+    "condition": "CLEAR",
+    "visibility_meters": 10000,
+    "wind_speed_knots": 12,
+    "temperature_celsius": 24
+  },
+  "passenger_notification": "Captain has informed passengers of diversion to Gold Coast",
+  "ground_services_ool": {
+    "refueling_arranged": true,
+    "passenger_services_alerted": true,
+    "customs_immigration_notified": false
+  }
+}

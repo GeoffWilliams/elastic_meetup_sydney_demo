@@ -1,0 +1,465 @@
+{
+  "flight": "TB519",
+  "airline": "TrueBlueAustralia",
+  "route": "SYD-BNE",
+  "status": "BOARDED",
+  "date": "2026-05-26",
+  "passengers": [
+    {
+      "pnr": "AB12CD",
+      "name": "Emma Wilson",
+      "age": 34,
+      "loyalty_tier": "Gold",
+      "ssr_codes": ["INF"],
+      "travel_group": "FAMILY_01",
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AB12CD",
+      "name": "Oliver Wilson",
+      "age": 2,
+      "loyalty_tier": null,
+      "ssr_codes": ["INF"],
+      "travel_group": "FAMILY_01",
+      "destination": "BNE"
+    },
+    {
+      "pnr": "ZX91KL",
+      "name": "Margaret Chen",
+      "age": 78,
+      "loyalty_tier": "Silver",
+      "ssr_codes": ["WCHR"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "LM44RT",
+      "name": "James Patel",
+      "age": 42,
+      "loyalty_tier": "Platinum",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE",
+      "onward_connection": "SIN"
+    },
+    {
+      "pnr": "QW77YU",
+      "name": "Sophie Nguyen",
+      "age": 15,
+      "loyalty_tier": null,
+      "ssr_codes": ["UMNR"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "TR88JK",
+      "name": "David Miller",
+      "age": 68,
+      "loyalty_tier": "Gold",
+      "ssr_codes": ["MEDA"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "GH56BN",
+      "name": "Priya Singh",
+      "age": 31,
+      "loyalty_tier": "Silver",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "GH56BN",
+      "name": "Aarav Singh",
+      "age": 5,
+      "loyalty_tier": null,
+      "ssr_codes": ["CHLD"],
+      "travel_group": "FAMILY_02",
+      "destination": "BNE"
+    },
+    {
+      "pnr": "YU22PL",
+      "name": "Robert Evans",
+      "age": 83,
+      "loyalty_tier": null,
+      "ssr_codes": ["WCHC"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "BN90CV",
+      "name": "Isabella Martinez",
+      "age": 27,
+      "loyalty_tier": "Bronze",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "PL77DF",
+      "name": "Noah Taylor",
+      "age": 39,
+      "loyalty_tier": "Platinum",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE",
+      "onward_connection": "LAX"
+    },
+    {
+      "pnr": "RT55GH",
+      "name": "Amelia Brown",
+      "age": 29,
+      "loyalty_tier": "Gold",
+      "ssr_codes": ["INF"],
+      "travel_group": "FAMILY_03",
+      "destination": "BNE"
+    },
+    {
+      "pnr": "RT55GH",
+      "name": "Lucas Brown",
+      "age": 1,
+      "loyalty_tier": null,
+      "ssr_codes": ["INF"],
+      "travel_group": "FAMILY_03",
+      "destination": "BNE"
+    },
+    {
+      "pnr": "JK66TY",
+      "name": "Henry Walker",
+      "age": 72,
+      "loyalty_tier": "Silver",
+      "ssr_codes": ["BLND"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AS34FG",
+      "name": "Mia Harris",
+      "age": 44,
+      "loyalty_tier": "Gold",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "CV78NM",
+      "name": "Ethan Clark",
+      "age": 51,
+      "loyalty_tier": "Platinum",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "ER45ZX",
+      "name": "Charlotte Lewis",
+      "age": 36,
+      "loyalty_tier": null,
+      "ssr_codes": ["WCHR"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "TY67UI",
+      "name": "Jack Robinson",
+      "age": 8,
+      "loyalty_tier": null,
+      "ssr_codes": ["UMNR"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "IO98KL",
+      "name": "Grace Young",
+      "age": 63,
+      "loyalty_tier": "Gold",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "PO23MN",
+      "name": "William King",
+      "age": 47,
+      "loyalty_tier": "Silver",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+
+    {
+      "pnr": "AA101A",
+      "name": "Liam Scott",
+      "age": 33,
+      "loyalty_tier": null,
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA102B",
+      "name": "Harper Green",
+      "age": 26,
+      "loyalty_tier": null,
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA103C",
+      "name": "Benjamin Hall",
+      "age": 58,
+      "loyalty_tier": "Gold",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA104D",
+      "name": "Ella Adams",
+      "age": 74,
+      "loyalty_tier": null,
+      "ssr_codes": ["WCHR"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA105E",
+      "name": "Mason Baker",
+      "age": 41,
+      "loyalty_tier": "Silver",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA106F",
+      "name": "Ava Carter",
+      "age": 37,
+      "loyalty_tier": "Gold",
+      "ssr_codes": ["DEAF"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA107G",
+      "name": "Logan Mitchell",
+      "age": 32,
+      "loyalty_tier": null,
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA108H",
+      "name": "Emily Perez",
+      "age": 46,
+      "loyalty_tier": "Bronze",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA109I",
+      "name": "Daniel Roberts",
+      "age": 61,
+      "loyalty_tier": "Gold",
+      "ssr_codes": ["MEDA"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA110J",
+      "name": "Scarlett Turner",
+      "age": 28,
+      "loyalty_tier": null,
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+
+    {
+      "pnr": "AA111K",
+      "name": "Matthew Phillips",
+      "age": 54,
+      "loyalty_tier": "Silver",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA112L",
+      "name": "Chloe Campbell",
+      "age": 22,
+      "loyalty_tier": null,
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA113M",
+      "name": "Joseph Parker",
+      "age": 67,
+      "loyalty_tier": "Gold",
+      "ssr_codes": ["WCHR"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA114N",
+      "name": "Victoria Edwards",
+      "age": 35,
+      "loyalty_tier": "Silver",
+      "ssr_codes": ["INF"],
+      "travel_group": "FAMILY_04",
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA114N",
+      "name": "Leo Edwards",
+      "age": 1,
+      "loyalty_tier": null,
+      "ssr_codes": ["INF"],
+      "travel_group": "FAMILY_04",
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA115O",
+      "name": "Samuel Collins",
+      "age": 49,
+      "loyalty_tier": "Platinum",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE",
+      "onward_connection": "NRT"
+    },
+    {
+      "pnr": "AA116P",
+      "name": "Zoe Stewart",
+      "age": 13,
+      "loyalty_tier": null,
+      "ssr_codes": ["UMNR"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA117Q",
+      "name": "Nathan Morris",
+      "age": 45,
+      "loyalty_tier": "Gold",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA118R",
+      "name": "Hannah Rogers",
+      "age": 57,
+      "loyalty_tier": null,
+      "ssr_codes": ["MEDA"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA119S",
+      "name": "Andrew Reed",
+      "age": 30,
+      "loyalty_tier": null,
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+
+    {
+      "pnr": "AA120T",
+      "name": "Layla Cook",
+      "age": 39,
+      "loyalty_tier": "Silver",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA121U",
+      "name": "Christopher Morgan",
+      "age": 71,
+      "loyalty_tier": "Gold",
+      "ssr_codes": ["WCHS"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA122V",
+      "name": "Lily Bell",
+      "age": 24,
+      "loyalty_tier": null,
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA123W",
+      "name": "Ryan Murphy",
+      "age": 43,
+      "loyalty_tier": "Platinum",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA124X",
+      "name": "Aria Bailey",
+      "age": 65,
+      "loyalty_tier": "Silver",
+      "ssr_codes": ["BLND"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA125Y",
+      "name": "Thomas Rivera",
+      "age": 52,
+      "loyalty_tier": "Gold",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA126Z",
+      "name": "Madison Cooper",
+      "age": 38,
+      "loyalty_tier": null,
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA127A",
+      "name": "Gabriel Richardson",
+      "age": 29,
+      "loyalty_tier": "Silver",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA128B",
+      "name": "Penelope Cox",
+      "age": 76,
+      "loyalty_tier": null,
+      "ssr_codes": ["WCHR"],
+      "travel_group": null,
+      "destination": "BNE"
+    },
+    {
+      "pnr": "AA129C",
+      "name": "Isaac Ward",
+      "age": 40,
+      "loyalty_tier": "Gold",
+      "ssr_codes": [],
+      "travel_group": null,
+      "destination": "BNE"
+    }
+  ]
+}

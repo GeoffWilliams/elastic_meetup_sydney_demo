@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-05-26T12:30:00Z",
+  "route": "OOL to BNE",
+  "distance_km": 95,
+  "estimated_duration_minutes": 90,
+  "transport_options": [
+    {
+      "provider_id": "TRN001",
+      "provider_name": "Greyhound Australia",
+      "transport_type": "COACH_BUS",
+      "available_vehicles": 3,
+      "vehicle_details": [
+        {
+          "vehicle_id": "GH-001",
+          "capacity": 50,
+          "wheelchair_accessible": true,
+          "wheelchair_spaces": 2,
+          "amenities": ["WiFi", "USB charging", "Restroom", "Air conditioning"],
+          "available": true
+        },
+        {
+          "vehicle_id": "GH-002",
+          "capacity": 50,
+          "wheelchair_accessible": true,
+          "wheelchair_spaces": 2,
+          "amenities": ["WiFi", "USB charging", "Restroom", "Air conditioning"],
+          "available": true
+        },
+        {
+          "vehicle_id": "GH-003",
+          "capacity": 45,
+          "wheelchair_accessible": false,
+          "amenities": ["WiFi", "USB charging", "Air conditioning"],
+          "available": true
+        }
+      ],
+      "earliest_departure": "2026-05-27T07:00:00+10:00",
+      "rate_per_vehicle_aud": 1200,
+      "accepts_airline_contracts": true,
+      "driver_availability": "Confirmed"
+    },
+    {
+      "provider_id": "TRN002",
+      "provider_name": "Con-X-ion",
+      "transport_type": "SHUTTLE_BUS",
+      "available_vehicles": 5,
+      "vehicle_details": [
+        {
+          "vehicle_id": "CX-101",
+          "capacity": 24,
+          "wheelchair_accessible": true,
+          "wheelchair_spaces": 1,
+          "amenities": ["Air conditioning"],
+          "available": true
+        },
+        {
+          "vehicle_id": "CX-102",
+          "capacity": 24,
+          "wheelchair_accessible": true,
+          "wheelchair_spaces": 1,
+          "amenities": ["Air conditioning"],
+          "available": true
+        },
+        {
+          "vehicle_id": "CX-103",
+          "capacity": 24,
+          "wheelchair_accessible": false,
+          "amenities": ["Air conditioning"],
+          "available": true
+        }
+      ],
+      "earliest_departure": "2026-05-27T06:30:00+10:00",
+      "rate_per_vehicle_aud": 800,
+      "accepts_airline_contracts": true,
+      "driver_availability": "Confirmed"
+    },
+    {
+      "provider_id": "TRN003",
+      "provider_name": "Premium Transfers",
+      "transport_type": "PRIVATE_VEHICLE",
+      "available_vehicles": 8,
+      "vehicle_details": [
+        {
+          "vehicle_type": "Wheelchair Accessible Van",
+          "capacity": 6,
+          "wheelchair_accessible": true,
+          "wheelchair_spaces": 2,
+          "available_count": 2
+        },
+        {
+          "vehicle_type": "Premium SUV",
+          "capacity": 6,
+          "wheelchair_accessible": false,
+          "available_count": 6
+        }
+      ],
+      "earliest_departure": "2026-05-27T06:00:00+10:00",
+      "rate_per_vehicle_aud": 350,
+      "accepts_airline_contracts": true,
+      "suitable_for": "VIP passengers, medical needs, families with infants"
+    }
+  ]
+}

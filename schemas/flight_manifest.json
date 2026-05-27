@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Flight Manifest",
+  "description": "Schema for flight passenger manifest",
+  "type": "object",
+  "properties": {
+    "flight": {
+      "type": "string",
+      "description": "Flight number"
+    },
+    "airline": {
+      "type": "string",
+      "description": "Airline name"
+    },
+    "route": {
+      "type": "string",
+      "description": "Scheduled flight route (e.g., SYD-BNE). Does not include diversions - those come from IROPS events."
+    },
+    "status": {
+      "type": "string",
+      "description": "Manifest status at time of finalization. Typically BOARDED (all passengers on board, doors closing) or DEPARTED (after takeoff).",
+      "enum": ["SCHEDULED", "BOARDING", "BOARDED", "CLOSED", "DEPARTED"]
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Flight date (ISO 8601)"
+    },
+    "passengers": {
+      "type": "array",
+      "description": "Array of passengers on the flight",
+      "items": {
+        "type": "object",
+        "properties": {
+          "pnr": {
+            "type": "string",
+            "description": "Passenger Name Record"
+          },
+          "name": {
+            "type": "string",
+            "description": "Passenger full name"
+          },
+          "age": {
+            "type": "integer",
+            "description": "Passenger age"
+          },
+          "loyalty_tier": {
+            "type": ["string", "null"],
+            "description": "Loyalty program tier (Gold, Silver, Platinum, etc.)"
+          },
+          "ssr_codes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Special Service Request codes (WCHR, UMNR, INF, MEDA, etc.)"
+          },
+          "travel_group": {
+            "type": ["string", "null"],
+            "description": "Travel group identifier for families"
+          },
+          "destination": {
+            "type": "string",
+            "description": "Passenger destination airport code"
+          },
+          "onward_connection": {
+            "type": ["string", "null"],
+            "description": "Onward connection airport code if applicable"
+          }
+        },
+        "required": ["pnr", "name", "age", "ssr_codes", "destination"]
+      }
+    }
+  },
+  "required": ["flight", "airline", "route", "status", "date", "passengers"]
+}

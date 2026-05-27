@@ -1,0 +1,32 @@
+{
+  "event_id": "IROPS_TB519_004",
+  "event_type": "WEATHER_ALERT",
+  "timestamp": "2026-05-26T10:30:00Z",
+  "airline": "TrueBlueAustralia",
+  "flight_number": "TB519",
+  "origin": "SYD",
+  "destination": "BNE",
+  "status": "AIRBORNE",
+  "aircraft_registration": "VH-TBA",
+  "current_position": {
+    "latitude": -28.5,
+    "longitude": 153.2,
+    "altitude_feet": 35000
+  },
+  "weather_conditions": {
+    "airport": "BNE",
+    "condition": "SEVERE_THUNDERSTORMS",
+    "visibility_meters": 800,
+    "wind_speed_knots": 45,
+    "wind_gusts_knots": 65,
+    "ceiling_feet": 400,
+    "precipitation": "HEAVY_RAIN",
+    "lightning": true,
+    "metar": "YBBN 261030Z 18045G65KT 0800 +TSRA BKN004 OVC010 22/21 Q0985",
+    "taf_trend": "TEMPO 1100/1130 0400 +TSRA BKN002 OVC006"
+  },
+  "atc_advisory": "HOLDING_PATTERN_LIKELY",
+  "alternate_airports": ["OOL", "CNS"],
+  "fuel_status": "ADEQUATE",
+  "estimated_delay": 60
+}

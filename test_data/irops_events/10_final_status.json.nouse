@@ -1,0 +1,68 @@
+{
+  "event_id": "IROPS_TB519_010",
+  "event_type": "RECOVERY_PLAN_CONFIRMED",
+  "timestamp": "2026-05-26T13:30:00Z",
+  "airline": "TrueBlueAustralia",
+  "flight_number": "TB519",
+  "current_location": "OOL",
+  "final_destination": "BNE",
+  "status": "RECOVERY_IN_PROGRESS",
+  "recovery_summary": {
+    "original_flight": "TB519 SYD-BNE",
+    "diversion_airport": "OOL",
+    "overnight_stay": true,
+    "ground_transport": "Bus service to BNE",
+    "estimated_final_arrival": "2026-05-27T09:30:00+10:00",
+    "total_delay_hours": 27.5
+  },
+  "passenger_care": {
+    "hotel_rooms_allocated": 45,
+    "meal_vouchers_issued": 150,
+    "ground_transport_confirmed": true,
+    "special_assistance_arranged": true,
+    "compensation_eligibility": true
+  },
+  "vulnerable_passenger_status": {
+    "infants_with_families": 4,
+    "wheelchair_passengers": 5,
+    "unaccompanied_minors": 3,
+    "medical_needs": 3,
+    "blind_passengers": 2,
+    "deaf_passengers": 1,
+    "all_accommodated": true,
+    "special_care_provided": true
+  },
+  "connection_passengers": {
+    "total": 3,
+    "rebooked": 3,
+    "status": [
+      {
+        "pnr": "LM44RT",
+        "passenger": "James Patel",
+        "original_connection": "TB52 to SIN",
+        "new_booking": "TB52 next day departure",
+        "hotel_provided": true
+      },
+      {
+        "pnr": "PL77DF",
+        "passenger": "Noah Taylor",
+        "original_connection": "TB11 to LAX",
+        "new_booking": "TB11 next day departure",
+        "hotel_provided": true
+      },
+      {
+        "pnr": "AA115O",
+        "passenger": "Samuel Collins",
+        "original_connection": "TB21 to NRT",
+        "new_booking": "TB21 next day departure",
+        "hotel_provided": true
+      }
+    ]
+  },
+  "communications_sent": {
+    "sms_notifications": 50,
+    "email_notifications": 50,
+    "app_push_notifications": 42,
+    "emergency_contacts_notified": 3
+  }
+}

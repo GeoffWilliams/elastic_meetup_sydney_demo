@@ -1,0 +1,18 @@
+{
+  "event_id": "IROPS_TB519_003",
+  "event_type": "DEPARTURE",
+  "timestamp": "2026-05-26T09:15:00Z",
+  "airline": "TrueBlueAustralia",
+  "flight_number": "TB519",
+  "origin": "SYD",
+  "destination": "BNE",
+  "scheduled_departure": "2026-05-26T06:00:00Z",
+  "actual_departure": "2026-05-26T09:15:00Z",
+  "delay_minutes": 195,
+  "status": "AIRBORNE",
+  "aircraft_registration": "VH-TBA",
+  "estimated_arrival": "2026-05-26T11:00:00Z",
+  "flight_level": "FL350",
+  "passengers_onboard": 50,
+  "crew_onboard": 6
+}

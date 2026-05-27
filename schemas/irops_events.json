@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IROPS Event",
+  "description": "Schema for IROPS (Irregular Operations) events",
+  "type": "object",
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "description": "Unique identifier for the IROPS event"
+    },
+    "event_type": {
+      "type": "string",
+      "description": "Type of IROPS event (e.g., DEPARTURE_DELAY, DIVERSION)"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of the event"
+    },
+    "airline": {
+      "type": "string",
+      "description": "Airline code or name"
+    },
+    "flight_number": {
+      "type": "string",
+      "description": "Flight number"
+    },
+    "origin": {
+      "type": "string",
+      "description": "Origin airport code"
+    },
+    "destination": {
+      "type": "string",
+      "description": "Intended destination airport code (remains unchanged even if diverted)"
+    },
+    "scheduled_departure": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Scheduled departure time (ISO 8601)"
+    },
+    "estimated_departure": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Estimated departure time (ISO 8601)"
+    },
+    "delay_minutes": {
+      "type": "integer",
+      "description": "Delay in minutes"
+    },
+    "reason": {
+      "type": "string",
+      "description": "Reason code for the disruption"
+    },
+    "reason_detail": {
+      "type": "string",
+      "description": "Detailed description of the reason"
+    },
+    "status": {
+      "type": "string",
+      "description": "Current flight status"
+    },
+    "aircraft_registration": {
+      "type": "string",
+      "description": "Aircraft registration number"
+    },
+    "gate": {
+      "type": "string",
+      "description": "Gate number"
+    },
+    "affected_passengers": {
+      "type": "integer",
+      "description": "Number of affected passengers"
+    },
+    "crew_notification": {
+      "type": "boolean",
+      "description": "Whether crew has been notified"
+    },
+    "ground_services_alerted": {
+      "type": "boolean",
+      "description": "Whether ground services have been alerted"
+    },
+    "diversion_airport": {
+      "type": "string",
+      "description": "Airport code where aircraft is being diverted to (set when diversion decision made)"
+    },
+    "current_location": {
+      "type": "string",
+      "description": "Current airport location of the aircraft at time of this event (where it physically is)"
+    },
+    "original_destination": {
+      "type": "string",
+      "description": "Original scheduled destination (same as destination field, kept for clarity in diversion scenarios)"
+    },
+    "actual_arrival": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Actual arrival time (ISO 8601)"
+    },
+    "weather_conditions": {
+      "type": "string",
+      "description": "Weather conditions description"
+    },
+    "fuel_remaining_minutes": {
+      "type": "integer",
+      "description": "Remaining fuel in minutes"
+    },
+    "alternate_airports": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of alternate airport codes"
+    },
+    "decision": {
+      "type": "string",
+      "description": "Decision made (e.g., DIVERT, CONTINUE_HOLDING)"
+    },
+    "accommodation_required": {
+      "type": "boolean",
+      "description": "Whether passenger accommodation is required"
+    },
+    "transport_required": {
+      "type": "boolean",
+      "description": "Whether ground transport is required"
+    }
+  },
+  "required": [
+    "event_id",
+    "event_type",
+    "timestamp",
+    "airline",
+    "flight_number",
+    "status"
+  ]
+}

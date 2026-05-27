@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-05-26T12:30:00Z",
+  "location": "Gold Coast",
+  "search_radius_km": 15,
+  "hotels": [
+    {
+      "hotel_id": "HTL001",
+      "name": "Mantra on View Hotel",
+      "address": "22 View Avenue, Surfers Paradise, QLD 4217",
+      "distance_from_airport_km": 8,
+      "star_rating": 4.5,
+      "available_rooms": 25,
+      "room_types": [
+        {
+          "type": "Standard Room",
+          "available": 15,
+          "rate_aud": 180,
+          "accessible": false
+        },
+        {
+          "type": "Accessible Room",
+          "available": 3,
+          "rate_aud": 180,
+          "accessible": true,
+          "features": ["Roll-in shower", "Grab bars", "Wide doorways"]
+        },
+        {
+          "type": "Family Suite",
+          "available": 7,
+          "rate_aud": 250,
+          "max_occupancy": 4,
+          "crib_available": true
+        }
+      ],
+      "amenities": ["Free WiFi", "Restaurant", "24hr reception", "Shuttle service", "Wheelchair accessible"],
+      "shuttle_available": true,
+      "shuttle_capacity": 20,
+      "accepts_airline_vouchers": true
+    },
+    {
+      "hotel_id": "HTL002",
+      "name": "Voco Gold Coast",
+      "address": "31 Hamilton Avenue, Surfers Paradise, QLD 4217",
+      "distance_from_airport_km": 9,
+      "star_rating": 4,
+      "available_rooms": 18,
+      "room_types": [
+        {
+          "type": "Standard Room",
+          "available": 12,
+          "rate_aud": 165,
+          "accessible": false
+        },
+        {
+          "type": "Accessible Room",
+          "available": 2,
+          "rate_aud": 165,
+          "accessible": true,
+          "features": ["Roll-in shower", "Grab bars"]
+        },
+        {
+          "type": "Family Room",
+          "available": 4,
+          "rate_aud": 220,
+          "max_occupancy": 4,
+          "crib_available": true
+        }
+      ],
+      "amenities": ["Free WiFi", "Pool", "Restaurant", "Wheelchair accessible"],
+      "shuttle_available": true,
+      "shuttle_capacity": 15,
+      "accepts_airline_vouchers": true
+    },
+    {
+      "hotel_id": "HTL003",
+      "name": "Crowne Plaza Surfers Paradise",
+      "address": "2807 Gold Coast Highway, Surfers Paradise, QLD 4217",
+      "distance_from_airport_km": 10,
+      "star_rating": 4.5,
+      "available_rooms": 20,
+      "room_types": [
+        {
+          "type": "Standard Room",
+          "available": 14,
+          "rate_aud": 195,
+          "accessible": false
+        },
+        {
+          "type": "Accessible Room",
+          "available": 2,
+          "rate_aud": 195,
+          "accessible": true,
+          "features": ["Roll-in shower", "Grab bars", "Visual alarms"]
+        },
+        {
+          "type": "Family Suite",
+          "available": 4,
+          "rate_aud": 280,
+          "max_occupancy": 5,
+          "crib_available": true
+        }
+      ],
+      "amenities": ["Free WiFi", "Pool", "Spa", "Restaurant", "24hr room service", "Wheelchair accessible"],
+      "shuttle_available": true,
+      "shuttle_capacity": 25,
+      "accepts_airline_vouchers": true
+    }
+  ],
+  "total_available_rooms": 63,
+  "total_accessible_rooms": 7,
+  "total_family_rooms": 15
+}

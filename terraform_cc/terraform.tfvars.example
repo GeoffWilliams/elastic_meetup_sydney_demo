@@ -1,0 +1,6 @@
+cc_environment_name="nameofexistingenvironmentinconfluentcloud"
+basename="yourname-elastic-meetup-lab"
+# Elasticsearch Configuration
+# Get these from your Elastic Cloud deployment
+elastic_endpoint = "https://XXXXXXXXXXXXXXXX.elastic.cloud:443"
+elastic_api_key = "bXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX="
